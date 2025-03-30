@@ -467,6 +467,7 @@ a{
     padding: 0.5vw;
     border-radius: 15px;
     font-size: 1.3vw;
+    padding-left: 2vw;
 }
 #deg1, #deg2, #deg3{
     text-align: center;
