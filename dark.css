@@ -1296,5 +1296,9 @@ Making it Responsive */
     .deg ul li{
         color: #1e0426;
     }
+    .cursor{
+        height: 0;
+        width: 0;
+    }
 }
   
