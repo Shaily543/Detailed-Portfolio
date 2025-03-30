@@ -1291,9 +1291,13 @@ Making it Responsive */
     }
     .contact-icons a i{
         font-size: 3.9vw;
-    /* }
+    }
     #mail_i{
         font-size: 8vw;
-    } */
+    }
+    .cursor{
+        height: 0;
+        width: 0;
+    }
 }
   
