@@ -154,12 +154,13 @@ a{
 
 #icon{
     position: fixed;
-    z-index: 2000;
+    z-index: 6000;
     padding-top: 6vw;
     padding-left: 3.12vw;
     font-size: 4.156vw;
     height: 51.953vw;
     transition: font-size 0.3s ease;
+    pointer-events: none;
 }
 #meet1{
     margin-left: 60vw; 
