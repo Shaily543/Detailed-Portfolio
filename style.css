@@ -157,7 +157,7 @@ a{
 
 #icon{
     position: fixed;
-    z-index: 2000;
+    z-index: 6000;
     padding-top: 6vw;
     padding-left: 3.12vw;
     font-size: 4.156vw;
