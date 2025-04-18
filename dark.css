@@ -1051,14 +1051,14 @@ Making it Responsive */
         margin: 0;
         padding: 0;
         margin-left: 30vw;
-        margin-top: 6vh;
+        margin-top: 10vw;
         padding: 4.5vw;
     }
     #field_of_interests{
-        height: 200vh;
+        height: 250vw;
     }
     #particles-js { 
-        height: 200vh; 
+        height: 250vw; 
     }
     #hob_des{
         font-size: 5vw;
