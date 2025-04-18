@@ -79,6 +79,8 @@ body {
     margin-top: 0;
     padding-right: 2vw;
     background-color: #d5e5d51a;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #nav2 ul{
