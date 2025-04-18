@@ -399,7 +399,7 @@ a{
     font-size: 3.2vw;
     padding-left: 4vw;
     position: fixed;
-    z-index: 2000;
+    z-index: 6000;
     color: #780C28;
     width: 20vw;
 }
@@ -1057,10 +1057,10 @@ Making it Responsive */
         padding: 4.5vw;
     }
     #field_of_interests{
-        height: 150vh;
+        height: 200vh;
     }
     #particles-js { 
-        height: 150vh; 
+        height: 200vh; 
     }
     #hob_des{
         font-size: 5vw;
