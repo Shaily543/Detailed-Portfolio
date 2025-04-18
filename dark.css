@@ -47,6 +47,7 @@ body {
     display: flex;
     margin-top: 0;
     padding-top: 0;
+    pointer-events: none;
 }
 #down{
     font-family: "Bungee Shade", sans-serif;
@@ -58,6 +59,7 @@ body {
     height: 0;
     margin-top: 0;
     padding-top: 0;
+    pointer-events: none;
 }
 
 #nav2 {
@@ -74,6 +76,8 @@ body {
     margin-top: 0;
     padding-right: 2vw;
     background-color: #d5e5d50a;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #nav2 ul{
