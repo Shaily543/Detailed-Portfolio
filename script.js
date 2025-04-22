@@ -142,7 +142,13 @@ const myChart = new Chart(ctx, {
     }
 });
 
+function toggleMenu() {
+    const nav = document.getElementById("nav2");
+    const btn = document.getElementById("menu-btn");
 
+    nav.classList.toggle("open");
+    btn.innerText = nav.classList.contains("open") ? "✖" : "☰";
+  }
 
 
         
