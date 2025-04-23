@@ -1331,7 +1331,7 @@ Making it Responsive */
   
     #nav2 ul {
       display: flex;
-      flex-direction: reverse-column;
+      flex-direction: column-reverse;
       gap: 1rem;
     }
   
