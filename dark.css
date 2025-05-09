@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Winky Sans", sans-serif;
+    color: #FFDFEF;
 }
 
 .winky-san {
@@ -15,17 +16,17 @@
 
 body {
     cursor: none;
-    color: #150E56;
+    color: #a888b5;
 }
 
 .cursor {
     position: fixed;
     width: 2.12vw;
     height: 2.12vw;
-    background: #951134d1;
+    background: #fad0c4e5;
     border-radius: 50%;
-    box-shadow: 0 0 10px #5D0E41, 
-                0 0 20px #FF204E;
+    box-shadow: 0 0 10px #E6B2BA, 
+                0 0 20px #C599B6;
     z-index: 9999;
     pointer-events: none;
 }
@@ -38,7 +39,7 @@ body {
     z-index: inherit;
     height: 100vh;
     width: 100%;
-    background-color: #f355873b;
+    background-color: #1e04262c;
 }
 #up{
     height: 0;
@@ -46,9 +47,6 @@ body {
     display: flex;
     margin-top: 0;
     padding-top: 0;
-    pointer-events: none;
-    /* z-index: -10;
-    position: absolute; */
 }
 #down{
     font-family: "Bungee Shade", sans-serif;
@@ -60,9 +58,6 @@ body {
     height: 0;
     margin-top: 0;
     padding-top: 0;
-    pointer-events: none;
-    /* position: absolute;
-    z-index: -10; */
 }
 
 #nav2 {
@@ -78,7 +73,7 @@ body {
     font-weight: 700;
     margin-top: 0;
     padding-right: 2vw;
-    background-color: #d5e5d51a;
+    background-color: #d5e5d50a;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -97,7 +92,7 @@ body {
     position: relative;
     font-size: 1.5vw;
     text-decoration: none;
-    color: #150E56;
+    color: #FFDFEF;
     font-family: "Agbalumo", system-ui;
 }
 
@@ -108,7 +103,7 @@ body {
     left:0;
     height: 0.312vw;
     width: 0%;
-    background: #780C28;
+    background: #E9A6A6;
     border-radius: 1.247vw;
     transition: all 0.5s ease;
 }
@@ -117,7 +112,7 @@ body {
     width: 100%;
 }
 #nav2 ul .listItem1 a{
-    color: #780C28;
+    color: #E9A6A6;
 }
 
 a{
@@ -125,12 +120,12 @@ a{
     color: inherit;
 }
 .toggle-btn{
-    height: 2.7vw;
+    height: 2.6vw;
     width: 9vw;
     font-family: "Agbalumo", system-ui;
     font-size: 1.2vw;
-    background-color: rgb(5, 8, 68);
-    color: #fad0c4;
+    background-color: #FFDFEF;
+    color: rgb(4, 4, 49);
     border-radius: 0.7vw;
 }
 
@@ -146,7 +141,7 @@ a{
     font-weight: 700;
     position: fixed;
     z-index: 6000;
-    color: #780C28;
+    color: #E9A6A6;
     width: 60VW;
     margin-top: 2vw;
 }
@@ -179,8 +174,6 @@ a{
 }
 #mbl_pv{
     height: 0;
-    position: relative;
-    pointer-events: none;
 }
 .pic{
     margin-left: 1.039vw;
@@ -202,7 +195,7 @@ a{
 
 
 #homeBODY {
-    background: linear-gradient(to right, #ff9a8b, #fad0c4, #fad0c4 ); 
+    background: linear-gradient(to right, #1e020a, #530101, #420516 ); 
     background-size: 100% auto; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -212,7 +205,7 @@ a{
 
 
 #style_sb{
-    color: rgb(15, 20, 55); 
+    color: #E9A6A6; 
     font-weight: 800; 
     font-size: 5.6vw;
 }
@@ -229,8 +222,8 @@ a{
 }
 #p1{
     width: 55vw;
-    background-color: #e5729429;
-    color: #150E56;
+    background-color: #ff8aad29;
+    color: #FFDFEF;
     font-size: 2vw;
     text-align: center;
     padding: 0.5vw;
@@ -241,7 +234,7 @@ a{
 #p2, #p3, #p4{
     width: 55vw;
     background-color: #ff8aad29;
-    color: #150E56;
+    color: #FFDFEF;
     font-size: 1.5vw;
     text-align: center;
     padding: 0.5vw;
@@ -313,14 +306,13 @@ a{
 #interest{
     width: 30vw;
     padding-top: 4vw;
-    border-bottom: 0.3vw solid #1e0426;
+    border-bottom: 0.3vw solid #E9A6A6;
     font-size: 3vw;
     margin-left: 35vw ;
 }
 #field_of_interests{
     height: 100vh;
     width: 100%;
-    color: #1e0426;
     text-align: center;
     display: inline-flex;
 }
@@ -328,7 +320,7 @@ a{
     position: absolute; 
     width: 100%; 
     height: 100vw; 
-    background-color: #f355873b;
+    background-color: #48182716;
 }
 .circle{
     height: 11vw;
@@ -370,7 +362,7 @@ a{
     width: 50vw;
     padding-top: 5vw;
     padding-bottom: 3vw;
-    border-bottom: 0.3vw solid #1e0426;
+    border-bottom: 0.3vw solid #E9A6A6;
     font-size: 3vw;
     margin-left: 25vw ;
     text-align: center;
@@ -404,13 +396,13 @@ a{
     padding-left: 4vw;
     position: fixed;
     z-index: 6000;
-    color: #780C28;
+    color: #E9A6A6;
     width: 20vw;
 }
 
 #educationBODY{
     margin: 0;
-    background: linear-gradient(to right, #86A788, #BAD8B6, #E1EACD ); 
+    background: linear-gradient(to right, #092635, #1B4242, #183D3D ); 
 }
 
 .floating-icons {
@@ -442,9 +434,6 @@ a{
     z-index: 2;
     text-align: center;
 }
-.details1{
-    height: 100vh;
-}
 
 #description{
     position: relative;
@@ -465,13 +454,14 @@ a{
 
 
 .uni{
-    background-color: #534a4c;
+    background-color: #6713294b;
     margin: 5vw;
     padding: 0.5vw;
     border-radius: 10px;
 }
 .deg{
     background-color: rgba(231, 201, 201, 0.408);
+    color: #1e0426;
     margin: 0.7vw;
     padding: 0.5vw;
     border-radius: 15px;
@@ -498,7 +488,7 @@ a{
 #projectsBODY {
     margin: 0;
     overflow-x: hidden;
-    background: linear-gradient(to right, #FFDFEF, #EABDE6, #FFDFEF  );
+    background: linear-gradient(to right, #16003B, #570A57, #371B58 );
     background-size: 100% auto; 
     background-repeat: no-repeat; 
 }
@@ -536,13 +526,14 @@ a{
     color: white;
     border-right: 15px solid #a888b585;
     border-left: 15px solid #a888b585;
+
 }
-.panel:nth-child(1) { background: #a888b585; }
-.panel:nth-child(2) { background: #c599b686; }
-.panel:nth-child(3) { background: #eabde68a; }
-.panel:nth-child(4) { background: #a888b586; }
-.panel:nth-child(5) { background: #c599b690; }
-.panel:nth-child(6) { background: #eabde68a; }
+.panel:nth-child(1) { background: #330631; }
+.panel:nth-child(2) { background: #260638; }
+.panel:nth-child(3) { background: #330536; }
+.panel:nth-child(4) { background: #2f022e; }
+.panel:nth-child(5) { background: #28053c; }
+.panel:nth-child(6) { background: #330536; }
 
 
 
@@ -707,7 +698,7 @@ a{
 .scroll-progress {
     width: 100%;
     height: 0;
-    background: #3d024f;
+    background: #E9A6A6;
     transition: height 0.1s linear;
 }
 
@@ -718,7 +709,7 @@ a{
 #skillsBODY {
     margin: 0;
     overflow-x: hidden;
-    background: linear-gradient(to right, #80deea, #e0f7fa, #80deea);
+    background: linear-gradient(to right, #0C134F, #0E2954, #19376D ); 
     background-size: 100% auto; 
     background-repeat: no-repeat; 
 }
@@ -738,6 +729,7 @@ a{
     padding-top: 5vw;
     border-bottom: 0.5vw solid #1e0426;
     background-color: rgba(231, 201, 201, 0);
+    color: #6c82a7;
 }
 .cont{
     display: flex;
@@ -753,7 +745,7 @@ a{
     height: 30vw;
     margin: auto;
     padding: 2vw;
-    background: #4c72ae2e;
+    background: #c7b2dde2;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 1vw;
     font-size: 3vw;
@@ -765,6 +757,7 @@ a{
 #skill_box_head{
     border-bottom: 0.5vw solid #1e0426;
     background-color: rgba(231, 201, 201, 0);
+    color: #6c82a7;
     font-size: 2.7vw;
     text-align: center;
     width: 30vw;
@@ -774,12 +767,13 @@ a{
 }
 .skill_box{
     background-color: #1e04263d;
+    color:#1e0426;
     border-radius: 1vw;
     margin: 5vw;
     padding: 0.5vw;
 }
 .skill_boxs{
-    background-color: #c7d9dd83;
+    background-color: #c5baff74;
     border-radius: 10px;
     margin: 1.5vw;
     padding: 1vw;
@@ -791,8 +785,8 @@ a{
 /* FOOTER, scroll icon, loader */
 #footer {
     width: 100%;
-    color: white;
-    background-color: #3c0513c8;
+    color: #3c0513c8;
+    background-color: #ffdfef9f;
     text-align: center;
     backdrop-filter: blur(10px);
     padding: 3vw;
@@ -806,7 +800,7 @@ a{
 }
 
 .contHead {
-    color: #fff;
+    color: #3c0513c8;
     font-size: 4vw;
     font-weight: 800;
     margin-bottom: 3vh;
@@ -823,13 +817,13 @@ a{
 .contact-icons a {
     text-decoration: none;
     font-size: 3vw;
-    color: #fff;
+    color: #3c0513c8;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact-icons a:hover {
     transform: scale(1.2);
-    color: #222; 
+    color: #FFDFEF; 
 }
 #column1, #column2, #column3{
     width: 26vw;
@@ -908,7 +902,7 @@ a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #ffe4e1, #ffccf9, #c2f0fc);
+    background: linear-gradient(135deg, #61413d, #6e4369, #33565f);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -970,7 +964,7 @@ a{
 .last_sub{
     width: 50vw;
     font-size: 15px;
-    color: white;
+    color: #3c0513c8;
     text-align: right;
 }
 
@@ -987,13 +981,14 @@ Making it Responsive */
         margin-left: 10vw;
         font-size: 2.5vw;
         display: flex;
+        color: #FFDFEF;
     }
     #down{
         font-family: "Bungee Shade", sans-serif;
         font-size: 17vw;
         font-weight: 700;
         z-index: 6000;
-        color: #780C28;
+        color: #E9A6A6;
         width: 60VW;
         margin-top: 2vw;
         margin-left: 10vw;
@@ -1066,7 +1061,7 @@ Making it Responsive */
         flex-direction: column;
     }
     #interest{
-        font-size: 5vw;
+        font-size: 9vw;
         width: 55vw;
         margin-left: 22vw;
         padding-top: 10vh;
@@ -1085,14 +1080,14 @@ Making it Responsive */
         margin: 0;
         padding: 0;
         margin-left: 30vw;
-        margin-top: 10vw;
+        margin-top: 6vh;
         padding: 4.5vw;
     }
     #field_of_interests{
-        height: 250vw;
+        height: 150vh;
     }
     #particles-js { 
-        height: 250vw; 
+        height: 150vh; 
     }
     #hob_des{
         font-size: 5vw;
@@ -1124,9 +1119,6 @@ Making it Responsive */
     #description{
         height: 15vw;
         font-size: 5vw;
-    }
-    .details1{
-        height: 110vw;
     }
     #body_description{
         padding-top: 7vh;
@@ -1224,6 +1216,7 @@ Making it Responsive */
         background: rgba(255, 255, 255, 0);
         padding: 2vw;
     }
+    
     #pro6{
         height: 10vh;
         width: 90vw;
@@ -1245,6 +1238,7 @@ Making it Responsive */
         background: rgba(255, 255, 255, 0);
         padding: 2vw;
     }
+
     #pro2{
         height: 10vh;
         width: 90vw;
@@ -1344,7 +1338,6 @@ Making it Responsive */
     }
     .menu_item{
         font-size: 2vw;
-        width: 10vw;
         text-align: center;
     }
     .contact-icons a i{
@@ -1353,8 +1346,13 @@ Making it Responsive */
     #mail_i{
         font-size: 8vw;
     }
+    .deg{
+        padding-left: 2vw;
+    }
+    .deg ul li{
+        color: #1e0426;
+    }
 }
-
 
 
 /* Hide and prepare sidebar on mobile */
@@ -1405,4 +1403,5 @@ Making it Responsive */
     }
   
   }
+  
   
