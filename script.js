@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".container", {
-    x: "-400vw", // Moves the container left by 200% of viewport width
+    x: "-500vw", // Moves the container left by 200% of viewport width
     scrollTrigger: {
         trigger: ".scroll-section",
         start: "top top",
